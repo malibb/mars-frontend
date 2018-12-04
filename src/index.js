@@ -1,12 +1,14 @@
+// REACT
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch} from 'react-router-dom';
-import './index.scss';
+
+// ESTILOS
+import './style/home.scss';
+import 'materialize-css/dist/css/materialize.min.css'
+
+
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
-
-import './style/home.scss';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
