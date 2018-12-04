@@ -4,9 +4,9 @@ import {Route}  from 'react-router-dom';
 
 //Components
 
-import Home     from './components/home/Home.js';
-import Login    from './components/login/Login.js';
-import Signup   from './components/signup/Signup.js';
+import Home     from './components/home/HomeComponent.js';
+import Login    from './components/login/LoginComponent.js';
+import Signup   from './components/signup/SignupComponent.js';
 
 export default [
     <Route exact path="/home"   component={Home}/>,
