@@ -28,7 +28,7 @@ export default class BrowseComponent extends Component {
                         const homes = data.allHomes.map( (home ,index) => (
                             <div className="col s4" key={index}>
                                 <ImageCard 
-                                title = {home.title}
+                                title = {home.name}
                                 description = {home.description}
                                 />
                             </div>
