@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // ESTILOS
-import './style/home.css';
 import 'materialize-css/dist/css/materialize.min.css'
 
 
