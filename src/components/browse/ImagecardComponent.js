@@ -3,11 +3,10 @@ import React, { Component } from 'react';
 class ImagecardComponent extends Component {
     state = {  }
     render() { 
-        return ( 
-                    
+        return (      
                     <div class="card">
                         <div class="card-image">
-                        <img src="./img/2.jpg"></img>
+                        <img src={this.props.src}></img>
                         <span class="card-title">{this.props.title}</span>
                         </div>
                         <div class="card-content">

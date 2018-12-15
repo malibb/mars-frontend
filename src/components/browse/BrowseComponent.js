@@ -8,7 +8,8 @@ const ALLHOMES = gql`
         allHomes{
             _id,
             name,
-            description
+            description,
+            address
         }
     }
 `
@@ -30,6 +31,7 @@ export default class BrowseComponent extends Component {
                                 <ImageCard 
                                 title = {home.name}
                                 description = {home.description}
+                                src = {home.address}
                                 />
                             </div>
                         ))   
