@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import gql from 'graphql-tag';
-import { Mutation } from 'react-apollo';
+
 
 /*  const REGISTER = gql`
      mutation Register($first_name:String!,$last_name:String!,$email:String!,

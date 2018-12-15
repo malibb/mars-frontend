@@ -26,7 +26,7 @@ export default class BrowseComponent extends Component {
                         if (loading) return <h4 className='center-align white-text'>Cargando ...</h4>
 
                         const homes = data.allHomes.map( (home ,index) => (
-                            <div className="col s4" key={index}>
+                            <div className="col s5" key={index}>
                                 <ImageCard 
                                 title = {home.name}
                                 description = {home.description}

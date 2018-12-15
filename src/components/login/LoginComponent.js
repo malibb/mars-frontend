@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Mutation } from 'react-apollo';
-import gql from 'graphql-tag';
+
 import './style.css';
 
 // const LOGIN = gql`
@@ -20,6 +19,12 @@ class LoginComponent extends Component {
         }
     }
 
+    render() { 
+        return ( 
+            <p>Sign Up Page</p>
+         );
+    }
+    
 }
  
 export default LoginComponent;

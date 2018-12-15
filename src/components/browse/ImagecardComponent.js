@@ -4,7 +4,7 @@ class ImagecardComponent extends Component {
     state = {  }
     render() { 
         return ( 
-                    <div class="col s12 m7">
+                    
                     <div class="card">
                         <div class="card-image">
                         <img src="./img/2.jpg"></img>
@@ -16,7 +16,6 @@ class ImagecardComponent extends Component {
                         <div class="card-action">
                         <a href="#">Ver más de {this.props.title}. -></a>
                         </div>
-                    </div>
                     </div>
             );
     }
